@@ -1,0 +1,64 @@
+{
+    "name": "KQL (Light) Theme",
+    "type": "light",
+    "colors": {
+      "editor.background": "#FFFFFF",
+      "editor.foreground": "#333333",
+      "editorLineNumber.foreground": "#999999",
+      "editorCursor.foreground": "#000000",
+      "editor.selectionBackground": "#ADD6FF",
+      "editorSuggestWidget.selectedBackground": "#D0E7FF"
+    },
+    "tokenColors": [
+        {
+            "scope": ["query.operators.kusto"],
+            "settings": {
+                "foreground": "#FF4500" // Bright orange for dark themes
+            }
+        },
+        {
+            "scope": [
+                "keyword.functions.kusto",
+                "keyword.functions.datetime.kusto",
+                "operator.table.kusto",
+                "keyword.types.kusto"
+            ],
+            "settings": {
+                "foreground": "#0000FF" // Light blue for dark themes
+            }
+        },
+        {
+            "scope": "keyword.other.kusto",
+            "settings": {
+              "foreground": "#0000FF" // blue
+            }
+        },
+        {
+            "scope": ["operator.math.kusto", "punctuation.kusto"],
+            "settings": {
+              "foreground": "#000000" // black
+            }
+          },
+        {
+            "scope": "comment.kusto",
+            "settings": {
+                "foreground": "#6A9955" // Green for dark themes
+            }
+        },
+        {
+            "scope": "query.parameters.kusto",
+            "settings": {
+              "foreground": "#2B91AF" // tealBlue
+            }
+          },
+        {
+            "scope": [
+                "string.quoted.double.kusto",
+                "string.quoted.single.kusto"
+            ],
+            "settings": {
+                "foreground": "#B22222" // firebrick
+            }
+        }
+    ]
+  }

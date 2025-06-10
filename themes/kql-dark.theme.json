@@ -1,0 +1,64 @@
+{
+  "name": "KQL (Dark) Theme",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#1E1E1E",
+    "editor.foreground": "#D4D4D4",
+    "editorLineNumber.foreground": "#858585",
+    "editorCursor.foreground": "#FFFFFF",
+    "editor.selectionBackground": "#264F78",
+    "editorSuggestWidget.selectedBackground": "#004E8C"
+  },
+  "tokenColors": [
+    {
+      "scope": ["query.operators.kusto"],
+      "settings": {
+          "foreground": "#FF4500" // Bright orange
+      }
+  },
+  {
+      "scope": [
+          "keyword.functions.kusto",
+          "keyword.functions.datetime.kusto",
+          "operator.table.kusto",
+          "keyword.types.kusto"
+      ],
+      "settings": {
+          "foreground": "#4EC9B0" // Medium Torquoise
+      }
+  },
+  {
+      "scope": "keyword.other.kusto",
+      "settings": {
+        "foreground": "#569CD6" // skyblue
+      }
+  },
+  {
+      "scope": ["operator.math.kusto", "punctuation.kusto"],
+      "settings": {
+        "foreground": "#DCDCDC" // black
+      }
+    },
+  {
+      "scope": "comment.kusto",
+      "settings": {
+          "foreground": "#608B4E" // Olivedrab
+      }
+  },
+  {
+      "scope": "query.parameters.kusto",
+      "settings": {
+        "foreground": "#2B91AF" // tealBlue
+      }
+    },
+  {
+      "scope": [
+          "string.quoted.double.kusto",
+          "string.quoted.single.kusto"
+      ],
+      "settings": {
+          "foreground": "#D69D85" // palechestnut
+      }
+  }
+  ]
+}

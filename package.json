@@ -1,0 +1,67 @@
+{
+  "name": "kql",
+  "displayName": "KQL Syntax Highlighter",
+  "description": "A Visual Studio Code extension for KQL (Kusto Query Language) syntax highlighting and custom themes.",
+  "version": "1.0.0",
+  "publisher": "vscode",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "icon": "images/icon.png",
+  "categories": [
+    "Programming Languages",
+    "Themes"
+  ],
+  "keywords": [
+    "kql",
+    "kusto",
+    "query",
+    "language",
+    "azure",
+    "log",
+    "analytics",
+    "syntax",
+    "highlighting"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "kql",
+        "extensions": [".kql", ".csl", ".kusto"],
+        "aliases": ["KQL", "kusto", "csl"],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "themes": [
+      {
+        "label": "KQL Theme (Light)",
+        "uiTheme": "vs",
+        "path": "./themes/kql-light.theme.json"
+      },
+      {
+        "label": "KQL Theme (Dark)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/kql-dark.theme.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "kql",
+        "scopeName": "source.kql",
+        "path": "./syntaxes/kql.tmLanguage.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-repository/kql-extension.git"
+  },
+  "activationEvents": [
+    "onLanguage:kql",
+    "onLanguage:csl",
+    "onLanguage:kusto",
+    "onStartupFinished"
+  ],
+  "main": "./extension.js"
+}
