@@ -1,17 +1,17 @@
 {
-  "name": "kql",
-  "displayName": "KQL Syntax Highlighter",
+  "name": "kustoSyntaxHighlighter",
+  "displayName": "Kusto Syntax Highlighter",
   "description": "A Visual Studio Code extension for KQL (Kusto Query Language) syntax highlighting and custom themes.",
   "author": {
     "name": "Ahmed Baruwa"
   },
   "version": "1.0.0",
-  "publisher": "abaruwa",
+  "publisher": "ao-baruwa",
   "license": "MIT",
   "engines": {
     "vscode": "^1.70.0"
   },
-  "icon": "images/icon.png",
+  "icon": "images/icon.jpg",
   "categories": [
     "Programming Languages",
     "Themes"

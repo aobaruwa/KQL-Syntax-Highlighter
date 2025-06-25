@@ -1,5 +1,5 @@
 {
-	"name": "KQL",
+	"name": "KQL-Syntax-Highlighter",
 	"scopeName": "source.kql",
 	"fileTypes": ["csl", "kql"],
 	"patterns": [
