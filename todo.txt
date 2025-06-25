@@ -1,3 +1,0 @@
-!not  --- both ! and not should be colorized
-run that system command that shows all the keywords in kusto and add to the vocab
-make the column names red medium violet red 

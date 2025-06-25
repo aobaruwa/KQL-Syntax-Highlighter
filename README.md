@@ -11,7 +11,7 @@ This extension provides **syntax highlighting** and **theme support** for **Kust
   - Highlights query parameters, math operators, and punctuation.
 
 - **Custom Theme**:
-  - Includes a dark theme (`Custom KQL Theme`) optimized for KQL development.
+  - Includes light(`KQL Theme (Light)`) and dark themes (`KQL Theme (Dark)`) optimized for KQL development.
   - Provides clear and visually distinct colors for different KQL elements.
 
 - **File Support**:
@@ -45,7 +45,7 @@ This extension provides **syntax highlighting** and **theme support** for **Kust
 ### Switching to the Custom Theme
 1. Open the Command Palette (`Ctrl+Shift+P` or `Cmd+Shift+P` on macOS).
 2. Select `Preferences: Color Theme`.
-3. Choose **Custom KQL Theme** from the list.
+3. Choose **KQL Theme (Light)** or **KQL Theme (Dark) from the list.
 
 ---
 
@@ -73,7 +73,7 @@ The following KQL elements are supported with syntax highlighting:
 ## Known Issues
 
 - Some advanced KQL constructs may not be fully supported.
-- If you encounter any issues, please report them in the [GitHub repository](https://github.com/your-repository/kql-extension/issues).
+- If you encounter any issues, please report them in the [GitHub repository](https://github.com/aobaruwa/KQL-Syntax-Highlighter/issues).
 
 ---
 
@@ -102,5 +102,4 @@ This extension is licensed under the [MIT License](https://opensource.org/licens
 
 ## Links
 
-- [GitHub Repository](https://github.com/your-repository/kql-extension)
-- [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=your-extension-id)
+- [GitHub Repository](https://github.com/aobaruwa/KQL-Syntax-Highlighter)
