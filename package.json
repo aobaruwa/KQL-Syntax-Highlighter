@@ -6,7 +6,11 @@
     "name": "Ahmed Baruwa"
   },
   "version": "1.0.0",
+<<<<<<< HEAD
   "publisher": "ao-baruwa",
+=======
+  "publisher": "aobaruwa",
+>>>>>>> 70647124ad68fcb4fd4203640a110a04a1180f1d
   "license": "MIT",
   "engines": {
     "vscode": "^1.70.0"
