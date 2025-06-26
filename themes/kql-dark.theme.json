@@ -11,12 +11,18 @@
   },
   "tokenColors": [
     {
+      "scope": ["keyword.table.control.kusto"],
+      "settings": {
+        "foreground": "#4EC9B0"
+      }
+    },
+    {
       "scope": ["query.operators.kusto"],
       "settings": {
           "foreground": "#FF4500" // Bright orange
       }
-  },
-  {
+    },
+    {
       "scope": [
           "keyword.functions.kusto",
           "keyword.functions.datetime.kusto",
@@ -26,32 +32,32 @@
       "settings": {
           "foreground": "#4EC9B0" // Medium Torquoise
       }
-  },
-  {
+    },
+    {
       "scope": "keyword.other.kusto",
       "settings": {
         "foreground": "#569CD6" // skyblue
       }
-  },
-  {
+    },
+    {
       "scope": ["operator.math.kusto", "punctuation.kusto"],
       "settings": {
         "foreground": "#DCDCDC" // black
       }
     },
-  {
+    {
       "scope": "comment.kusto",
       "settings": {
           "foreground": "#608B4E" // Olivedrab
       }
-  },
-  {
+    },
+    {
       "scope": "query.parameters.kusto",
       "settings": {
         "foreground": "#2B91AF" // tealBlue
       }
     },
-  {
+    {
       "scope": [
           "string.quoted.double.kusto",
           "string.quoted.single.kusto"
@@ -59,6 +65,6 @@
       "settings": {
           "foreground": "#D69D85" // palechestnut
       }
-  }
+    }
   ]
 }

@@ -11,9 +11,15 @@
     },
     "tokenColors": [
         {
+            "scope": ["keyword.table.control.kusto"],
+            "settings": {
+                "foreground": "#0000FF" // Light blue
+            }
+      },
+        {
             "scope": ["query.operators.kusto"],
             "settings": {
-                "foreground": "#FF4500" // Bright orange for dark themes
+                "foreground": "#FF4500" // Bright orange
             }
         },
         {
@@ -24,7 +30,7 @@
                 "keyword.types.kusto"
             ],
             "settings": {
-                "foreground": "#0000FF" // Light blue for dark themes
+                "foreground": "#0000FF" // Light blue
             }
         },
         {
@@ -42,7 +48,7 @@
         {
             "scope": "comment.kusto",
             "settings": {
-                "foreground": "#6A9955" // Green for dark themes
+                "foreground": "#6A9955" // Green
             }
         },
         {
