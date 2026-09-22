@@ -89,6 +89,7 @@ Contributions are welcome! If you’d like to contribute:
 ## Release Notes
 
 ### 1.0.0
+- Built as a toy project while working at Microsoft
 - Initial release with syntax highlighting for KQL.
 - Includes a custom dark theme optimized for KQL development.
 
